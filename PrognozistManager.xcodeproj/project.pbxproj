@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00D1A82E61B76C9FA1158538 /* Pods_PrognozistManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1CCE653A2D4E261F41906 /* Pods_PrognozistManager.framework */; };
 		ACE718BE2326A7F600C3E2C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE718BD2326A7F600C3E2C8 /* AppDelegate.swift */; };
 		ACE718C02326A7F600C3E2C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE718BF2326A7F600C3E2C8 /* ViewController.swift */; };
 		ACE718C32326A7F600C3E2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE718C12326A7F600C3E2C8 /* Main.storyboard */; };
 		ACE718C52326A7F900C3E2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE718C42326A7F900C3E2C8 /* Assets.xcassets */; };
 		ACE718C82326A7F900C3E2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE718C62326A7F900C3E2C8 /* LaunchScreen.storyboard */; };
+		ACE718D02326A84B00C3E2C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACE718CF2326A84B00C3E2C8 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C7172E08A8B301473106373 /* Pods-PrognozistManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrognozistManager.debug.xcconfig"; path = "Target Support Files/Pods-PrognozistManager/Pods-PrognozistManager.debug.xcconfig"; sourceTree = "<group>"; };
+		66966999DC354B920ED204E0 /* Pods-PrognozistManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrognozistManager.release.xcconfig"; path = "Target Support Files/Pods-PrognozistManager/Pods-PrognozistManager.release.xcconfig"; sourceTree = "<group>"; };
+		8EB1CCE653A2D4E261F41906 /* Pods_PrognozistManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrognozistManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE718BA2326A7F600C3E2C8 /* PrognozistManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrognozistManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE718BD2326A7F600C3E2C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACE718BF2326A7F600C3E2C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		ACE718C42326A7F900C3E2C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE718C72326A7F900C3E2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACE718C92326A7F900C3E2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE718CF2326A84B00C3E2C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D1A82E61B76C9FA1158538 /* Pods_PrognozistManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B7B23FB70C4D85545BEF7F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C7172E08A8B301473106373 /* Pods-PrognozistManager.debug.xcconfig */,
+				66966999DC354B920ED204E0 /* Pods-PrognozistManager.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		973FEAC92D4D742CEA5CAC7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1CCE653A2D4E261F41906 /* Pods_PrognozistManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACE718B12326A7F600C3E2C8 = {
 			isa = PBXGroup;
 			children = (
 				ACE718BC2326A7F600C3E2C8 /* PrognozistManager */,
 				ACE718BB2326A7F600C3E2C8 /* Products */,
+				0B7B23FB70C4D85545BEF7F0 /* Pods */,
+				973FEAC92D4D742CEA5CAC7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +87,7 @@
 				ACE718C42326A7F900C3E2C8 /* Assets.xcassets */,
 				ACE718C62326A7F900C3E2C8 /* LaunchScreen.storyboard */,
 				ACE718C92326A7F900C3E2C8 /* Info.plist */,
+				ACE718CF2326A84B00C3E2C8 /* GoogleService-Info.plist */,
 			);
 			path = PrognozistManager;
 			sourceTree = "<group>";
@@ -71,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACE718CC2326A7F900C3E2C8 /* Build configuration list for PBXNativeTarget "PrognozistManager" */;
 			buildPhases = (
+				D21168963FF626A2E7C311ED /* [CP] Check Pods Manifest.lock */,
 				ACE718B62326A7F600C3E2C8 /* Sources */,
 				ACE718B72326A7F600C3E2C8 /* Frameworks */,
 				ACE718B82326A7F600C3E2C8 /* Resources */,
+				661EC7B3DEF359DC86145432 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,11 +154,71 @@
 			files = (
 				ACE718C82326A7F900C3E2C8 /* LaunchScreen.storyboard in Resources */,
 				ACE718C52326A7F900C3E2C8 /* Assets.xcassets in Resources */,
+				ACE718D02326A84B00C3E2C8 /* GoogleService-Info.plist in Resources */,
 				ACE718C32326A7F600C3E2C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		661EC7B3DEF359DC86145432 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrognozistManager/Pods-PrognozistManager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrognozistManager/Pods-PrognozistManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D21168963FF626A2E7C311ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrognozistManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ACE718B62326A7F600C3E2C8 /* Sources */ = {
@@ -280,11 +370,13 @@
 		};
 		ACE718CD2326A7F900C3E2C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7172E08A8B301473106373 /* Pods-PrognozistManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89WB9E7UEU;
 				INFOPLIST_FILE = PrognozistManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,17 +384,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = a.s.bitsoev.PrognozistManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ACE718CE2326A7F900C3E2C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66966999DC354B920ED204E0 /* Pods-PrognozistManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89WB9E7UEU;
 				INFOPLIST_FILE = PrognozistManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = a.s.bitsoev.PrognozistManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
